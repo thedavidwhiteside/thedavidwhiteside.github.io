@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <meta property="og:site_name" content="David Whiteside">
+    <meta property="og:type" content="article">
+
+    
+    <meta property="og:image" content="https://davidwhiteside.com//img/home-bg-ski.jpg">
+    <meta property="twitter:image" content="https://davidwhiteside.com//img/home-bg-ski.jpg" />
+    
+
+    
+    <meta name="title" content="" />
+    <meta property="og:title" content="" />
+    <meta property="twitter:title" content="" />
+    
+
+    
+    <meta name="description" content="David Whiteside blog on Cloud">
+    <meta property="og:description" content="David Whiteside blog on Cloud" />
+    <meta property="twitter:description" content="David Whiteside blog on Cloud" />
+    
+
+    
+    <meta property="twitter:card" content="summary" />
+    
+    
+
+    <meta name="keyword"  content="David Whiteside, David, Whiteside, Tech, Blog, Cloud, HPC">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+
+    <title>Tech | David Whiteside Blog</title>
+
+    <link rel="canonical" href="/categories/tech/">
+
+    
+    
+    
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    
+    <link rel="stylesheet" href="/css/hugo-theme-cleanwhite.min.css">
+
+    
+    <link rel="stylesheet" href="/css/zanshang.css">
+
+    
+    <link rel="stylesheet" href="/css/font-awesome.all.min.css">
+
+    
+    <link rel="stylesheet" href="https://davidwhiteside.com/css/custom.css">
+
+    
+    <script src="/js/jquery.min.js"></script>
+
+    
+    <script src="/js/bootstrap.min.js"></script>
+
+    
+    <script src="/js/hux-blog.min.js"></script>
+
+    
+    <script src="/js/lazysizes.min.js"></script>
+
+    
+    
+
+</head>
+
+
+
+
+
+
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+
+    <div class="container-fluid">
+        
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">David Whiteside</a>
+        </div>
+
+        
+        
+        <div id="huxblog_navbar">
+            <div class="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">All Posts</a>
+                    </li>
+                    
+                        
+                        <li>
+                            <a href="/categories/tech/">tech</a>
+                        </li>
+                        
+                    
+                    
+		    
+                        <li><a href="/archive//">ARCHIVE</a></li>
+                    
+                        <li><a href="/about//">ABOUT</a></li>
+                    
+
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+    
+</nav>
+<script>
+    
+    
+    
+    var $body   = document.body;
+    var $toggle = document.querySelector('.navbar-toggle');
+    var $navbar = document.querySelector('#huxblog_navbar');
+    var $collapse = document.querySelector('.navbar-collapse');
+
+    $toggle.addEventListener('click', handleMagic)
+    function handleMagic(e){
+        if ($navbar.className.indexOf('in') > 0) {
+        
+            $navbar.className = " ";
+            
+            setTimeout(function(){
+                
+                if($navbar.className.indexOf('in') < 0) {
+                    $collapse.style.height = "0px"
+                }
+            },400)
+        }else{
+        
+            $collapse.style.height = "auto"
+            $navbar.className += " in";
+        }
+    }
+</script>
+
+
+
+<header class="intro-header" style="background-image: url('/img/home-bg-ski.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>David Whiteside </h1>
+                    
+		    <span class="subheading">People overestimate what can be accomplished in a year, and underestimate what can be accomplished in a decade</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+  
+<div data-pagefind-ignore="all" class="container">
+    <div class="row">
+        
+        
+   	    <div class="
+            col-lg-8 col-lg-offset-1
+            col-md-8 col-md-offset-1
+            col-sm-12
+            col-xs-12
+            post-container
+        ">
+            
+<div data-pagefind-ignore="all">
+
+<div class="post-preview">
+    <a href="https://davidwhiteside.com/post/create-throw-away-python-virtual-environments/">
+        <h2 class="post-title">
+            Simple Tool to Create Throw-Away Python Virtual Environments
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            <p>Managing Python dependencies in isolated environments is a common practice in software development. But what if you need a quick, temporary virtual environment that you can discard after use? Here’s a simple tool and workflow to create throw-away Python virtual environments.</p>
+<hr>
+<h3 id="the-problem"><strong>The Problem</strong></h3>
+<p>While Python’s built-in <code>venv</code> or tools like <code>virtualenv</code> are excellent for managing environments, they require setup and cleanup. For quick experiments or isolated dependency installations, this process can feel cumbersome.</p>
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by David Whiteside on Saturday, December 7, 2024
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://davidwhiteside.com/post/using-smartcard-with-ansible/">
+        <h2 class="post-title">
+            Using a Smartcard (PIV or CAC) with Ansible
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            <p>As part of the Ansible 2.12 release, pkcs11/smartcards are now supported by Ansible. Now you can use smartcards and other devices that support pkcs11 (Yubikey) to configure systems with Ansible.</p>
+<p>Setup your middleware for pkcs11, below is how to install opensc on a Mac using homebrew.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ brew install opensc
+</span></span></code></pre></div><p>To use pkcs11 for authentication set the ANSIBLE_PKCS11_PROVIDER environment variable</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ <span style="color:#8be9fd;font-style:italic">export</span> <span style="color:#8be9fd;font-style:italic">ANSIBLE_PKCS11_PROVIDER</span><span style="color:#ff79c6">=</span>/usr/local/lib/opensc-pkcs11.so
+</span></span><span style="display:flex;"><span>$ ansible-playbook -u USERNAME -b -k -K PLAYBOOK.yml --connection<span style="color:#ff79c6">=</span>ssh
+</span></span><span style="display:flex;"><span>SSH password: <span style="color:#f1fa8c">&lt;&lt; Enter your PKCS11 Pin for your smartcard
+</span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">SUDO password[defaults to SSH password]: &lt;&lt; Enter</span> your user account password <span style="color:#ff79c6">for</span> sudo
+</span></span></code></pre></div><p>For more details see the <a href="https://github.com/ansible/ansible/pull/32829">feature PR</a>.</p>
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by David Whiteside on Wednesday, March 7, 2018
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://davidwhiteside.com/post/solaris-setting-ib-node-description/">
+        <h2 class="post-title">
+            Setting the InfiniBand (IB) Node Description on Solaris
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            <p>In Solaris, configuring the InfiniBand (IB) node description can make your network easier to manage by assigning meaningful names to nodes. This guide explains how to set the IB node description.</p>
+<hr>
+<p>View the current IB node description</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ set_nodedesc.sh
+</span></span></code></pre></div><p>You can set the IB node description to whatever you want using the -N option with set_nodedesc.sh.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ set_nodedesc.sh -N <span style="color:#f1fa8c">&#39;something&#39;</span>
+</span></span></code></pre></div><p>You can reference the <a href="https://docs.oracle.com/cd/E86824_01/html/E54764/set-nodedesc-sh-1m.html">man page</a> for the set_nodedesc.sh command to see the full command reference.</p>
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by David Whiteside on Sunday, October 7, 2012
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://davidwhiteside.com/post/solaris-shutdown-reboot-init-differences/">
+        <h2 class="post-title">
+            Solaris Shutdown, Reboot, Init, and Halt Command Differences
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            <p>The init and shutdown commands cleanly shutdown the system by running the shutdown rc scripts.</p>
+<p>The advantage of shutdown is that you can set a shutdown delay and warning message.</p>
+<p>halt and reboot are not as clean, no shutdown rc scripts are run so applications will not be brought down clean, I generally do not use these commands unless its a last resort.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ init   <span style="color:#6272a4"># runs the shutdown scripts in /etc/rc*</span>
+</span></span><span style="display:flex;"><span>$ init <span style="color:#bd93f9">0</span> <span style="color:#6272a4"># shutdown (on sparc it takes it to the ok prompt)</span>
+</span></span><span style="display:flex;"><span>$ init s <span style="color:#6272a4"># single user mode</span>
+</span></span><span style="display:flex;"><span>$ init <span style="color:#bd93f9">5</span> <span style="color:#6272a4"># shutdown</span>
+</span></span><span style="display:flex;"><span>$ init <span style="color:#bd93f9">6</span> <span style="color:#6272a4"># reboot</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ shutdown <span style="color:#6272a4"># runs the shutdown scripts in /etc/rc*, prints message warning users</span>
+</span></span><span style="display:flex;"><span>$ shutdown -y -g <span style="color:#bd93f9">0</span>
+</span></span><span style="display:flex;"><span>$ shutdown -y -i <span style="color:#bd93f9">0</span> <span style="color:#6272a4"># shutdown to ok prompt</span>
+</span></span><span style="display:flex;"><span>$ shutdown -y -i S <span style="color:#6272a4"># single user mode</span>
+</span></span><span style="display:flex;"><span>$ shutdown -y -i <span style="color:#bd93f9">5</span> <span style="color:#6272a4"># shutdown</span>
+</span></span><span style="display:flex;"><span>$ shutdown -y -i <span style="color:#bd93f9">6</span> <span style="color:#6272a4"># reboot</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sync; sync; halt <span style="color:#6272a4"># (ungraceful shutdown, use sync;sync;halt)</span>
+</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sync; sync; reboot <span style="color:#6272a4"># (ungraceful reboot. Always run sync;sync;reboot. The prefered method is using init.)</span>
+</span></span><span style="display:flex;"><span>$ sync; sync; reboot -- -r  <span style="color:#6272a4"># reconfiguration reboot</span>
+</span></span><span style="display:flex;"><span>$ sync; sync; reboot -- -s <span style="color:#6272a4"># reboot into single usermode</span>
+</span></span></code></pre></div>
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by David Whiteside on Monday, May 7, 2012
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+<div class="post-preview">
+    <a href="https://davidwhiteside.com/post/sparc-ok-prompt-command-reference/">
+        <h2 class="post-title">
+            SPARC OK Prompt Command Reference
+        </h2>
+	
+        <div class="post-content-preview">
+	
+            <p>Maybe you don’t care about the forth programming language, but if you work on Sparc systems long enough you are going to have to work from the ok prompt.</p>
+<p>Here are the essentials commands you must know.</p>
+<p>Boot the system normally</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ok&gt; boot
+</span></span></code></pre></div><p>Boot the system and allow for discovery of new devices (reconfiguration boot)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ok&gt; boot -r
+</span></span></code></pre></div><p>Boot into Single-User Mode</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>ok&gt; boot -s
+</span></span></code></pre></div><p>Boot into a ROM, useful if your system isn’t bootable</p>
+       
+        </div>
+    </a>
+    <p class="post-meta">
+    
+        Posted by David Whiteside on Sunday, August 7, 2011
+        
+        
+    
+    </p>
+
+</div>
+<hr>
+
+</div>
+
+            
+
+
+
+       	</div>
+        
+
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+	
+    <section class="visible-md visible-lg">
+	
+        <div class="short-about">
+            
+            <a href="/about">
+               <img src="https://s.gravatar.com/avatar/53dcc370b5af132823e8e8128a341867?s=256" alt="avatar" style="cursor: pointer" />
+            </a>
+            
+            
+                <p>David Whiteside</p>
+            
+           
+           <ul class="list-inline">
+               
+               <li>
+                   <a href="mailto:david@davidwhiteside.com">
+                      <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle fa-stack-2x"></i>
+                          <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                      </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://github.com/thedavidwhiteside">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+               
+               <li>
+                   <a target="_blank" href="https://www.linkedin.com/in/thedavidwhiteside/">
+                       <span class="fa-stack fa-lg">
+                           <i class="fas fa-circle fa-stack-2x"></i>
+                           <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                       </span>
+                   </a>
+               </li>
+               
+               
+               
+            
+            
+               
+               
+               
+               
+                </ul>
+            </div>
+    </section>
+	
+    
+    
+    
+    
+    <section>
+        <hr class="hidden-sm hidden-xs">
+        <h5>FEATURED TAGS</h5>
+        <div class="tags">
+            
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/linux" title="linux">
+                        linux
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+            
+               
+                    <a href="/tags/solaris" title="solaris">
+                        solaris
+                    </a>
+               
+            
+               
+            
+               
+            
+               
+            
+        </div>
+    </section>
+    
+
+    
+    
+    
+</div>
+
+	</div>
+</div>
+
+
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    <li>
+                        <a href="mailto:david@davidwhiteside.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    
+                    
+                    
+
+		            
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://github.com/thedavidwhiteside">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		            
+                    
+                    
+                    
+                    <li>
+                        <a target="_blank" href="https://www.linkedin.com/in/thedavidwhiteside/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		           
+                    
+                    
+                    
+                    
+                    
+                    
+            
+            
+            
+           
+                   <li>
+                       <a href='/categories/tech/index.xml' rel="alternate" type="application/rss+xml" title="David Whiteside" >
+                           <span class="fa-stack fa-lg">
+                               <i class="fas fa-circle fa-stack-2x"></i>
+                               <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                           </span>
+                       </a>
+                   </li>
+            
+             </ul>
+		<p class="copyright text-muted">
+                    Copyright &copy; David Whiteside 2024
+                    
+                    <br>
+                    <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
+                    <iframe
+                        style="margin-left: 2px; margin-bottom:-5px;"
+                        frameborder="0" scrolling="0" width="100px" height="20px"
+                        src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true" >
+                    </iframe>
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<script>
+    function loadAsync(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+
+
+
+
+
+
+<script>
+    
+    if($('#tag_cloud').length !== 0){
+        loadAsync("/js/jquery.tagcloud.js",function(){
+            $.fn.tagcloud.defaults = {
+                
+                color: {start: '#bbbbee', end: '#0085a1'},
+            };
+            $('#tag_cloud a').tagcloud();
+        })
+    }
+</script>
+
+
+<script>
+    loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js", function(){
+        var $nav = document.querySelector("nav");
+        if($nav) FastClick.attach($nav);
+    })
+</script>
+
+
+
+
+
+
+<script type="text/javascript">
+    function generateCatalog(selector) {
+
+        
+        
+        
+        
+            _containerSelector = 'div.post-container'
+        
+
+        
+        var P = $(_containerSelector), a, n, t, l, i, c;
+        a = P.find('h1,h2,h3,h4,h5,h6');
+
+        
+        $(selector).html('')
+
+        
+        a.each(function () {
+            n = $(this).prop('tagName').toLowerCase();
+            i = "#" + $(this).prop('id');
+            t = $(this).text();
+            c = $('<a href="' + i + '" rel="nofollow">' + t + '</a>');
+            l = $('<li class="' + n + '_nav"></li>').append(c);
+            $(selector).append(l);
+        });
+        return true;
+    }
+
+    generateCatalog(".catalog-body");
+
+    
+    $(".catalog-toggle").click((function (e) {
+        e.preventDefault();
+        $('.side-catalog').toggleClass("fold")
+    }))
+
+    
+
+
+    loadAsync("\/js\/jquery.nav.js", function () {
+        $('.catalog-body').onePageNav({
+            currentClass: "active",
+            changeHash: !1,
+            easing: "swing",
+            filter: "",
+            scrollSpeed: 700,
+            scrollOffset: 0,
+            scrollThreshold: .2,
+            begin: null,
+            end: null,
+            scrollChange: null,
+            padding: 80
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>

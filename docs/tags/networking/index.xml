@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networking on David Whiteside</title>
+    <link>https://davidwhiteside.com/tags/networking/</link>
+    <description>Recent content in Networking on David Whiteside</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Oct 2012 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://davidwhiteside.com/tags/networking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting the InfiniBand (IB) Node Description on Solaris</title>
+      <link>https://davidwhiteside.com/post/solaris-setting-ib-node-description/</link>
+      <pubDate>Sun, 07 Oct 2012 12:00:00 +0000</pubDate>
+      <guid>https://davidwhiteside.com/post/solaris-setting-ib-node-description/</guid>
+      <description>&lt;p&gt;In Solaris, configuring the InfiniBand (IB) node description can make your network easier to manage by assigning meaningful names to nodes. This guide explains how to set the IB node description.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;View the current IB node description&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ set_nodedesc.sh&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can set the IB node description to whatever you want using the -N option with set_nodedesc.sh.&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;$ set_nodedesc.sh -N &lt;span style=&#34;color:#f1fa8c&#34;&gt;&amp;#39;something&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can reference the &lt;a href=&#34;https://docs.oracle.com/cd/E86824_01/html/E54764/set-nodedesc-sh-1m.html&#34;&gt;man page&lt;/a&gt; for the set_nodedesc.sh command to see the full command reference.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

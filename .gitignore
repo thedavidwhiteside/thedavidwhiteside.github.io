@@ -1,3 +1,28 @@
-_site
-.sass-cache
-.jekyll-metadata
+# Runtime lock file
+.hugo_build.lock
+
+# Node modules (if using npm/yarn for themes or tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+*.iml
+
+# Hugo themes submodules (if using submodules)
+themes/*
+
+# Backup files (e.g., from text editors)
+*~
