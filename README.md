@@ -1,2 +1,0 @@
-# davidwhiteside.com
-davidwhiteside.com

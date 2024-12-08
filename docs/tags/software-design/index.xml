@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Software Design on David Whiteside Blog</title>
+    <link>https://blog.davidwhiteside.com/tags/software-design/</link>
+    <description>Recent content in Software Design on David Whiteside Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 07 Dec 2024 12:00:00 +0000</lastBuildDate>
+    <atom:link href="https://blog.davidwhiteside.com/tags/software-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Software Design Basics</title>
+      <link>https://blog.davidwhiteside.com/post/software-design-basics/</link>
+      <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
+      <guid>https://blog.davidwhiteside.com/post/software-design-basics/</guid>
+      <description>&lt;h3 id=&#34;what-is-software-design&#34;&gt;What is Software Design?&lt;/h3&gt;&#xA;&lt;p&gt;Software design is the process of defining the architecture, components, interfaces, and other characteristics of a software system. Good design ensures that software is efficient, maintainable, and scalable.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;key-principles-of-software-design&#34;&gt;Key Principles of Software Design&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Simplicity&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Keep the design simple to reduce complexity and make the code easier to understand and maintain.&lt;/li&gt;&#xA;&lt;li&gt;Follow the KISS principle: &amp;ldquo;Keep It Simple, Stupid.&amp;rdquo;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Modularity&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Divide the system into smaller, independent modules.&lt;/li&gt;&#xA;&lt;li&gt;Each module should focus on a single responsibility (Single Responsibility Principle).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Reusability&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

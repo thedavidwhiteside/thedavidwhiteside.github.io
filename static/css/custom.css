@@ -1,0 +1,19 @@
+.site-heading {
+  color: #ffffff !important;
+  visibility: hidden;
+  text-shadow: 
+    -1px -1px 0 #000000, /* Top left */
+    1px -1px 0 #000000,  /* Top right */
+    -1px 1px 0 #000000,  /* Bottom left */
+    1px 1px 0 #000000;   /* Bottom right */
+}
+
+.subheading {
+    color: #ffffff;
+    visibility: hidden;
+    text-shadow: 
+      -1px -1px 0 #000000, /* Top left */
+      1px -1px 0 #000000,  /* Top right */
+      -1px 1px 0 #000000,  /* Bottom left */
+      1px 1px 0 #000000;   /* Bottom right */
+}
