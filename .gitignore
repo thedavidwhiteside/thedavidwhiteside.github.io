@@ -21,8 +21,5 @@ Thumbs.db
 .idea/
 *.iml
 
-# Hugo themes submodules (if using submodules)
-themes/*
-
 # Backup files (e.g., from text editors)
 *~
