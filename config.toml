@@ -19,7 +19,7 @@ home = ["HTML", "RSS"]
   SEOTitle = "David Whiteside Blog"
   description = "David Whiteside blog on Cloud"
   keyword = "David Whiteside, David, Whiteside, Tech, Blog, Cloud, HPC"
-  slogan = "People overestimate what can be accomplished in a year, and underestimate what can be accomplished in a decade"
+  slogan = "Most people overestimate what they can achieve in a year and underestimate what they can achieve in ten years. - Bill Gates"
   upstreamAttribution = true
   custom_css = ["css/custom.css"]
 
