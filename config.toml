@@ -15,7 +15,7 @@ relURL = "img/favicon.ico"
 home = ["HTML", "RSS"]
 
 [params]
-  header_image = "img/home-bg-ski.jpg"
+  header_image = "img/home-bg-ski1.jpg"
   SEOTitle = "David Whiteside Blog"
   description = "David Whiteside blog on Cloud"
   keyword = "David Whiteside, David, Whiteside, Tech, Blog, Cloud, HPC"
