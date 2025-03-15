@@ -6,10 +6,12 @@ languageCode = "en-us"
 disqusShortname = ""
 googleAnalytics = ""
 preserveTaxonomyNames = true
-paginate = 5 #frontpage pagination
 hasCJKLanguage = true
 publishDir = "docs"
 relURL = "img/favicon.ico"
+
+[pagination]
+pagerSize = 10
 
 [outputs]
 home = ["HTML", "RSS"]

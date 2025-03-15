@@ -6,8 +6,15 @@
     <description>Recent content in Posts on David Whiteside</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Dec 2024 12:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2024 12:00:00 +0000</lastBuildDate>
     <atom:link href="https://davidwhiteside.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Guide for having fun (and winning) a Jam Session at re:Invent</title>
+      <link>https://davidwhiteside.com/post/how-to-win-an-aws-jam-session-at-reinvent/</link>
+      <pubDate>Thu, 12 Dec 2024 12:00:00 +0000</pubDate>
+      <guid>https://davidwhiteside.com/post/how-to-win-an-aws-jam-session-at-reinvent/</guid>
+      <description>&lt;p&gt;AWS Jam Sessions are hands-on, gamified events designed to test your knowledge of AWS services, security, architecture, and operational best practices. Competing in a Jam requires a mix of AWS expertise, problem-solving skills, quick thinking, and teamwork. If you want to maximize your chances of winning, here’s a strategic guide to your next AWS Jam Session.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;what-to-expect&#34;&gt;&lt;strong&gt;What to expect&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;https://davidwhiteside.com/img/post/how-to-win-an-aws-jam-session-at-reinvent/reinvent_2024.jpg&#34; alt=&#34;AWS Jam Session at re:Invent&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;AWS Jam Session teams must solve under time constraints.&lt;/code&gt; Challenges range from security incident response and infrastructure automation to networking and AI/ML deployments.  &lt;code&gt;Teams are typically made up of four members.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Simple Tool to Create Throw-Away Python Virtual Environments</title>
       <link>https://davidwhiteside.com/post/create-throw-away-python-virtual-environments/</link>
