@@ -48,7 +48,7 @@
       <link>https://davidwhiteside.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://davidwhiteside.com/about/</guid>
-      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;David Whiteside&lt;/em&gt;&lt;/strong&gt; is a seasoned cloud engineer and software developer with expertise in Cloud Computing, High-Performance Computing (HPC), Linux, DevOps, and Programming, with a passion for exploring technology. His interests span the entire spectrum of software development, from crafting web applications and mobile apps to delving into embedded systems at the firmware level.&lt;/p&gt;&#xA;&lt;h5 id=&#34;interests&#34;&gt;Interests&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Technology&lt;/li&gt;&#xA;&lt;li&gt;3D Printing&lt;/li&gt;&#xA;&lt;li&gt;Solar, Electric Vehicles, Renewable Energy&lt;/li&gt;&#xA;&lt;li&gt;Outdoors&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;h2 id=&#34;about-me&#34;&gt;About Me&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;em&gt;David Whiteside&lt;/em&gt;&lt;/strong&gt; is skilled cloud architect and software developer with expertise in Cloud Computing, High-Performance Computing (HPC), Linux, DevOps, and Programming, with a passion for exploring technology. His interests span the entire spectrum of software development, from crafting web applications and mobile apps to delving into embedded systems at the firmware level.&lt;/p&gt;&#xA;&lt;p&gt;Beyond cloud computing and software development, David has a keen interest in Artificial Intelligence, Machine Learning, and the intersection of technology with real-world problem-solving. He enjoys hands-on projects like 3D printing and exploring advancements in renewable energy, electric vehicles, and solar power. When he’s not in front of a screen, you’ll likely find him snowboarding, skiing, or rock climbing in the mountains, embracing the same sense of problem-solving and adaptability that he brings to his engineering work.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
@@ -56,6 +56,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://davidwhiteside.com/notes/</guid>
       <description>&lt;h2 id=&#34;notes&#34;&gt;Notes&lt;/h2&gt;</description>
+    </item>
+    <item>
+      <title>How to have fun, learn, (and maybe win) a Jam Session at re:Invent</title>
+      <link>https://davidwhiteside.com/post/how-to-win-an-aws-jam-session-at-reinvent/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://davidwhiteside.com/post/how-to-win-an-aws-jam-session-at-reinvent/</guid>
+      <description>&lt;p&gt;AWS Jam Sessions are hands-on, gamified events designed to test your knowledge of AWS services, security, architecture, and operational best practices. Competing in a Jam requires a mix of AWS expertise, problem-solving skills, quick thinking, and teamwork. If you want to maximize your chances of winning, here’s a strategic guide to your next AWS Jam Session.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;what-to-expect&#34;&gt;&lt;strong&gt;What to expect&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;&#xA;  &lt;img src=&#34;./reinvent_2024.jpg&#34; alt=&#34;AWS Jam Session at re:Invent&#34;&gt;&#xA;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;AWS Jam Session teams must solve under time constraints.&lt;/code&gt; Challenges range from security incident response and infrastructure automation to networking and AI/ML deployments.  &lt;code&gt;Teams are typically made up of four members.&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Posts Archive</title>
