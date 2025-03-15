@@ -1,6 +1,6 @@
 ---
-title: "How to have fun, learn, (and maybe win) a Jam Session at re:Invent"
-date: 2024-12-06 T12:00:00Z
+title: "Guide for having fun (and winning) a Jam Session at re:Invent"
+date: 2024-12-12T12:00:00Z
 draft: false
 tags: ["aws", "cloud"]
 categories: ["Tech"]
@@ -12,7 +12,7 @@ AWS Jam Sessions are hands-on, gamified events designed to test your knowledge o
 
 ### **What to expect**
 
-![AWS Jam Session at re:Invent](./reinvent_2024.jpg)
+![AWS Jam Session at re:Invent](/img/post/how-to-win-an-aws-jam-session-at-reinvent/reinvent_2024.jpg)
 
 `AWS Jam Session teams must solve under time constraints.` Challenges range from security incident response and infrastructure automation to networking and AI/ML deployments.  `Teams are typically made up of four members.`
 
@@ -53,7 +53,7 @@ AWS Jams are a fun way to get hands-on learning experience at re:Invent.  Make f
 
 ---
 
-![AWS DevOps 1st place win](./david_whiteside_winning_reinvent_2024.jpg)
+![AWS DevOps 1st place win](/img/post/how-to-win-an-aws-jam-session-at-reinvent/david_whiteside_winning_reinvent_2024.jpg)
 1st place win `AWS DevOps and Modernization` re:Invent 2024 Jam
 
 - [AWS GameDay](https://aws.amazon.com/gameday)  
