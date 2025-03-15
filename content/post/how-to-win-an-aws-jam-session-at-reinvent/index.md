@@ -1,11 +1,7 @@
 ---
-<<<<<<< HEAD
-title: "How to have fun, learn, (and maybe win) a Jam Session at re:Invent"
 date: 2024-12-06 T12:00:00Z
-=======
 title: "Guide for having fun (and winning) a Jam Session at re:Invent"
 date: 2024-12-12T12:00:00Z
->>>>>>> develop
 draft: false
 tags: ["aws", "cloud"]
 categories: ["Tech"]
