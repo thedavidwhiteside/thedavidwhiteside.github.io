@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>OK Prompt on David Whiteside</title>
-    <link>https://davidwhiteside.com/tags/ok-prompt/</link>
+    <link>http://localhost:1313/tags/ok-prompt/</link>
     <description>Recent content in OK Prompt on David Whiteside</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Aug 2011 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidwhiteside.com/tags/ok-prompt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ok-prompt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SPARC OK Prompt Command Reference</title>
-      <link>https://davidwhiteside.com/post/sparc-ok-prompt-command-reference/</link>
+      <link>http://localhost:1313/post/sparc-ok-prompt-command-reference/</link>
       <pubDate>Sun, 07 Aug 2011 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/post/sparc-ok-prompt-command-reference/</guid>
+      <guid>http://localhost:1313/post/sparc-ok-prompt-command-reference/</guid>
       <description>&lt;p&gt;Maybe you don’t care about the forth programming language, but if you work on Sparc systems long enough you are going to have to work from the ok prompt.&lt;/p&gt;&#xA;&lt;p&gt;Here are the essentials commands you must know.&lt;/p&gt;&#xA;&lt;p&gt;Boot the system normally&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ok&amp;gt; boot&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Boot the system and allow for discovery of new devices (reconfiguration boot)&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ok&amp;gt; boot -r&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Boot into Single-User Mode&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;ok&amp;gt; boot -s&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Boot into a ROM, useful if your system isn’t bootable&lt;/p&gt;</description>
     </item>
   </channel>
