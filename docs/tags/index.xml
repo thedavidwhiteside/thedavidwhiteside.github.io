@@ -2,136 +2,136 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on David Whiteside</title>
-    <link>https://davidwhiteside.com/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on David Whiteside</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 12 Dec 2024 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidwhiteside.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aws</title>
-      <link>https://davidwhiteside.com/tags/aws/</link>
+      <link>http://localhost:1313/tags/aws/</link>
       <pubDate>Thu, 12 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/aws/</guid>
+      <guid>http://localhost:1313/tags/aws/</guid>
       <description></description>
     </item>
     <item>
       <title>Cloud</title>
-      <link>https://davidwhiteside.com/tags/cloud/</link>
+      <link>http://localhost:1313/tags/cloud/</link>
       <pubDate>Thu, 12 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/cloud/</guid>
+      <guid>http://localhost:1313/tags/cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>https://davidwhiteside.com/tags/linux/</link>
+      <link>http://localhost:1313/tags/linux/</link>
       <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/linux/</guid>
+      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Programming</title>
-      <link>https://davidwhiteside.com/tags/programming/</link>
+      <link>http://localhost:1313/tags/programming/</link>
       <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/programming/</guid>
+      <guid>http://localhost:1313/tags/programming/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://davidwhiteside.com/tags/python/</link>
+      <link>http://localhost:1313/tags/python/</link>
       <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/python/</guid>
+      <guid>http://localhost:1313/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Virtual Environments</title>
-      <link>https://davidwhiteside.com/tags/virtual-environments/</link>
+      <link>http://localhost:1313/tags/virtual-environments/</link>
       <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/virtual-environments/</guid>
+      <guid>http://localhost:1313/tags/virtual-environments/</guid>
       <description></description>
     </item>
     <item>
       <title>Ansible</title>
-      <link>https://davidwhiteside.com/tags/ansible/</link>
+      <link>http://localhost:1313/tags/ansible/</link>
       <pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/ansible/</guid>
+      <guid>http://localhost:1313/tags/ansible/</guid>
       <description></description>
     </item>
     <item>
       <title>CAC</title>
-      <link>https://davidwhiteside.com/tags/cac/</link>
+      <link>http://localhost:1313/tags/cac/</link>
       <pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/cac/</guid>
+      <guid>http://localhost:1313/tags/cac/</guid>
       <description></description>
     </item>
     <item>
       <title>PIV</title>
-      <link>https://davidwhiteside.com/tags/piv/</link>
+      <link>http://localhost:1313/tags/piv/</link>
       <pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/piv/</guid>
+      <guid>http://localhost:1313/tags/piv/</guid>
       <description></description>
     </item>
     <item>
       <title>Smartcard</title>
-      <link>https://davidwhiteside.com/tags/smartcard/</link>
+      <link>http://localhost:1313/tags/smartcard/</link>
       <pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/smartcard/</guid>
+      <guid>http://localhost:1313/tags/smartcard/</guid>
       <description></description>
     </item>
     <item>
       <title>InfiniBand</title>
-      <link>https://davidwhiteside.com/tags/infiniband/</link>
+      <link>http://localhost:1313/tags/infiniband/</link>
       <pubDate>Sun, 07 Oct 2012 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/infiniband/</guid>
+      <guid>http://localhost:1313/tags/infiniband/</guid>
       <description></description>
     </item>
     <item>
       <title>Networking</title>
-      <link>https://davidwhiteside.com/tags/networking/</link>
+      <link>http://localhost:1313/tags/networking/</link>
       <pubDate>Sun, 07 Oct 2012 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/networking/</guid>
+      <guid>http://localhost:1313/tags/networking/</guid>
       <description></description>
     </item>
     <item>
       <title>Solaris</title>
-      <link>https://davidwhiteside.com/tags/solaris/</link>
+      <link>http://localhost:1313/tags/solaris/</link>
       <pubDate>Sun, 07 Oct 2012 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/solaris/</guid>
+      <guid>http://localhost:1313/tags/solaris/</guid>
       <description></description>
     </item>
     <item>
       <title>Commands</title>
-      <link>https://davidwhiteside.com/tags/commands/</link>
+      <link>http://localhost:1313/tags/commands/</link>
       <pubDate>Mon, 07 May 2012 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/commands/</guid>
+      <guid>http://localhost:1313/tags/commands/</guid>
       <description></description>
     </item>
     <item>
       <title>Unix</title>
-      <link>https://davidwhiteside.com/tags/unix/</link>
+      <link>http://localhost:1313/tags/unix/</link>
       <pubDate>Mon, 07 May 2012 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/unix/</guid>
+      <guid>http://localhost:1313/tags/unix/</guid>
       <description></description>
     </item>
     <item>
       <title>OK Prompt</title>
-      <link>https://davidwhiteside.com/tags/ok-prompt/</link>
+      <link>http://localhost:1313/tags/ok-prompt/</link>
       <pubDate>Sun, 07 Aug 2011 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/ok-prompt/</guid>
+      <guid>http://localhost:1313/tags/ok-prompt/</guid>
       <description></description>
     </item>
     <item>
       <title>Reference</title>
-      <link>https://davidwhiteside.com/tags/reference/</link>
+      <link>http://localhost:1313/tags/reference/</link>
       <pubDate>Sun, 07 Aug 2011 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/reference/</guid>
+      <guid>http://localhost:1313/tags/reference/</guid>
       <description></description>
     </item>
     <item>
       <title>SPARC</title>
-      <link>https://davidwhiteside.com/tags/sparc/</link>
+      <link>http://localhost:1313/tags/sparc/</link>
       <pubDate>Sun, 07 Aug 2011 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/sparc/</guid>
+      <guid>http://localhost:1313/tags/sparc/</guid>
       <description></description>
     </item>
   </channel>
