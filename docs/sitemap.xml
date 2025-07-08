@@ -2,97 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/aws/</loc>
+    <loc>https://davidwhiteside.com/tags/aws/</loc>
     <lastmod>2024-12-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://davidwhiteside.com/categories/</loc>
     <lastmod>2024-12-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cloud/</loc>
+    <loc>https://davidwhiteside.com/tags/cloud/</loc>
     <lastmod>2024-12-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://davidwhiteside.com/</loc>
     <lastmod>2024-12-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/how-to-win-an-aws-jam-session-at-reinvent/</loc>
+    <loc>https://davidwhiteside.com/post/how-to-win-an-aws-jam-session-at-reinvent/</loc>
     <lastmod>2024-12-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>https://davidwhiteside.com/post/</loc>
     <lastmod>2024-12-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://davidwhiteside.com/tags/</loc>
     <lastmod>2024-12-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/tech/</loc>
+    <loc>https://davidwhiteside.com/categories/tech/</loc>
     <lastmod>2024-12-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://davidwhiteside.com/tags/linux/</loc>
     <lastmod>2024-12-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
+    <loc>https://davidwhiteside.com/tags/programming/</loc>
     <lastmod>2024-12-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
+    <loc>https://davidwhiteside.com/tags/python/</loc>
     <lastmod>2024-12-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/create-throw-away-python-virtual-environments/</loc>
+    <loc>https://davidwhiteside.com/post/create-throw-away-python-virtual-environments/</loc>
     <lastmod>2024-12-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/virtual-environments/</loc>
+    <loc>https://davidwhiteside.com/tags/virtual-environments/</loc>
     <lastmod>2024-12-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ansible/</loc>
+    <loc>https://davidwhiteside.com/tags/ansible/</loc>
     <lastmod>2018-03-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cac/</loc>
+    <loc>https://davidwhiteside.com/tags/cac/</loc>
     <lastmod>2018-03-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/piv/</loc>
+    <loc>https://davidwhiteside.com/tags/piv/</loc>
     <lastmod>2018-03-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/smartcard/</loc>
+    <loc>https://davidwhiteside.com/tags/smartcard/</loc>
     <lastmod>2018-03-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/using-smartcard-with-ansible/</loc>
+    <loc>https://davidwhiteside.com/post/using-smartcard-with-ansible/</loc>
     <lastmod>2018-03-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/infiniband/</loc>
+    <loc>https://davidwhiteside.com/tags/infiniband/</loc>
     <lastmod>2012-10-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/networking/</loc>
+    <loc>https://davidwhiteside.com/tags/networking/</loc>
     <lastmod>2012-10-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/solaris-setting-ib-node-description/</loc>
+    <loc>https://davidwhiteside.com/post/solaris-setting-ib-node-description/</loc>
     <lastmod>2012-10-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/solaris/</loc>
+    <loc>https://davidwhiteside.com/tags/solaris/</loc>
     <lastmod>2012-10-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/commands/</loc>
+    <loc>https://davidwhiteside.com/tags/commands/</loc>
     <lastmod>2012-05-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/solaris-shutdown-reboot-init-differences/</loc>
+    <loc>https://davidwhiteside.com/post/solaris-shutdown-reboot-init-differences/</loc>
     <lastmod>2012-05-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/unix/</loc>
+    <loc>https://davidwhiteside.com/tags/unix/</loc>
     <lastmod>2012-05-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ok-prompt/</loc>
+    <loc>https://davidwhiteside.com/tags/ok-prompt/</loc>
     <lastmod>2011-08-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/reference/</loc>
+    <loc>https://davidwhiteside.com/tags/reference/</loc>
     <lastmod>2011-08-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/sparc/</loc>
+    <loc>https://davidwhiteside.com/tags/sparc/</loc>
     <lastmod>2011-08-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/sparc-ok-prompt-command-reference/</loc>
+    <loc>https://davidwhiteside.com/post/sparc-ok-prompt-command-reference/</loc>
     <lastmod>2011-08-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://davidwhiteside.com/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://davidwhiteside.com/notes/</loc>
   </url><url>
-    <loc>http://localhost:1313/archive/</loc>
+    <loc>https://davidwhiteside.com/archive/</loc>
   </url>
 </urlset>
