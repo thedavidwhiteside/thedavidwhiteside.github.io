@@ -79,7 +79,7 @@ home = ["HTML", "RSS"]
 
   [params.social]
   rss            = true 
-  email          = "david@davidwhiteside.com"
+  email          = "contact@davidwhiteside.com"
   #facebook      = "full profile url in facebook"
   #googleplus    = "full profile url in googleplus"
   #twitter       = "full profile url in twitter"
