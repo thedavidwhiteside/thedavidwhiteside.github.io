@@ -1,4 +1,9 @@
 #!/bin/bash
 
-hugo
-echo "commit and push your changes to main"
+```bash
+hugo server -D # for development server
+
+hugo # Build the site
+
+Then commit to develop and merge to main.
+```
