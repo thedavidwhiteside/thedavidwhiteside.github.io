@@ -193,9 +193,9 @@
 	
             <p>As part of the Ansible 2.12 release, pkcs11/smartcards are now supported by Ansible. Now you can use smartcards and other devices that support pkcs11 (Yubikey) to configure systems with Ansible.</p>
 <p>Setup your middleware for pkcs11, below is how to install opensc on a Mac using homebrew.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ brew install opensc
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ brew install opensc
 </span></span></code></pre></div><p>To use pkcs11 for authentication set the ANSIBLE_PKCS11_PROVIDER environment variable</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ <span style="color:#8be9fd;font-style:italic">export</span> <span style="color:#8be9fd;font-style:italic">ANSIBLE_PKCS11_PROVIDER</span><span style="color:#ff79c6">=</span>/usr/local/lib/opensc-pkcs11.so
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ <span style="color:#8be9fd;font-style:italic">export</span> <span style="color:#8be9fd;font-style:italic">ANSIBLE_PKCS11_PROVIDER</span><span style="color:#ff79c6">=</span>/usr/local/lib/opensc-pkcs11.so
 </span></span><span style="display:flex;"><span>$ ansible-playbook -u USERNAME -b -k -K PLAYBOOK.yml --connection<span style="color:#ff79c6">=</span>ssh
 </span></span><span style="display:flex;"><span>SSH password: <span style="color:#f1fa8c">&lt;&lt; Enter your PKCS11 Pin for your smartcard
 </span></span></span><span style="display:flex;"><span><span style="color:#f1fa8c">SUDO password[defaults to SSH password]: &lt;&lt; Enter</span> your user account password <span style="color:#ff79c6">for</span> sudo
@@ -429,7 +429,7 @@
             
              </ul>
 		<p class="copyright text-muted">
-                    Copyright &copy; David Whiteside 2025
+                    Copyright &copy; David Whiteside 2026
                     
                     <br>
                     <a href="https://themes.gohugo.io/hugo-theme-cleanwhite">CleanWhite Hugo Theme</a> by <a href="https://zhaohuabing.com">Huabing</a> |
