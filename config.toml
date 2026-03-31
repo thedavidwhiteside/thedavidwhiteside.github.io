@@ -22,10 +22,10 @@ home = ["HTML", "RSS"]
   description = "David Whiteside blog on Cloud"
   keyword = "David Whiteside, David, Whiteside, Tech, Blog, Cloud, HPC"
   slogans = [
-    '"Vision without execution is hallucination." — Thomas Edison',
-    '"Small disciplines repeated with consistency every day lead to great achievements gained slowly over time." — John C. Maxwell',
+    '"Vision without execution is hallucination." - Thomas Edison',
+    '"Small disciplines repeated with consistency every day lead to great achievements gained slowly over time." - John C. Maxwell',
     '"The secret of getting ahead is getting started. The secret of getting started is breaking your complex overwhelming tasks into small manageable tasks, and then starting on the first one." - Mark Twain',
-    "\"You don't rise to the level of your goals, you fall to the level of your systems.\" — James Clear",
+    "\"You don't rise to the level of your goals, you fall to the level of your systems.\" - James Clear",
     '"We overestimate the change that will occur in the next two years and underestimate the change that will happen in the next ten." - Roy Amara',
   ]
   upstreamAttribution = true
