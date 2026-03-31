@@ -1,5 +1,9 @@
-# Runtime lock file
+# Hugo build artifacts
 .hugo_build.lock
+# Default Hugo output dir (publishDir is set to docs/ which IS committed for GitHub Pages)
+public/
+# Hugo local server resources
+resources/_gen/
 
 # Node modules (if using npm/yarn for themes or tools)
 node_modules/
