@@ -4,7 +4,7 @@ theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
-googleAnalytics = ""
+googleAnalytics = "G-3DN3WMF161"
 preserveTaxonomyNames = true
 hasCJKLanguage = true
 publishDir = "docs"
@@ -18,9 +18,9 @@ home = ["HTML", "RSS"]
 
 [params]
   header_image = "img/home-bg-ski1.jpg"
-  SEOTitle = "David Whiteside Blog"
-  description = "David Whiteside blog on Cloud"
-  keyword = "David Whiteside, David, Whiteside, Tech, Blog, Cloud, HPC"
+  SEOTitle = "David Whiteside - Cloud engineer, sharing insights on AWS, DevOps, and HPC"
+  description = "Cloud engineer, sharing insights on AWS, DevOps, and HPC"
+  keyword = "David Whiteside, David, Whiteside, Tech, Cloud, HPC"
   slogans = [
     '"Vision without execution is hallucination." - Thomas Edison',
     '"Small disciplines repeated with consistency every day lead to great achievements gained slowly over time." - John C. Maxwell',
@@ -47,7 +47,7 @@ home = ["HTML", "RSS"]
   #algolia_apiKey = ""
 
   # Sidebar settings
-  sidebar_about_description = "David Whiteside"
+  sidebar_about_description = "Cloud Engineer · AWS & HPC & DevOps"
   sidebar_avatar = "https://s.gravatar.com/avatar/53dcc370b5af132823e8e8128a341867?s=256"      # use absolute URL, seeing it's used in both `/` and `/about/`
 
   featured_tags = true 
