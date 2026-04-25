@@ -2,7 +2,7 @@
 title: "Setting the InfiniBand (IB) Node Description on Solaris"
 date: 2012-10-07T12:00:00Z
 draft: false
-tags: ["Solaris", "InfiniBand", "Networking"]
+tags: ["InfiniBand", "IB"]
 ---
 
 In Solaris, configuring the InfiniBand (IB) node description can make your network easier to manage by assigning meaningful names to nodes. This guide explains how to set the IB node description.

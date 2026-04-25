@@ -2,7 +2,7 @@
 title: "Solaris Shutdown, Reboot, Init, and Halt Command Differences"
 date: 2012-05-07T12:00:00Z
 draft: false
-tags: ["Solaris", "Commands", "Unix"]
+tags: []
 ---
 
 The init and shutdown commands cleanly shutdown the system by running the shutdown rc scripts.
