@@ -1,0 +1,157 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- OGP -->
+    <meta property="og:site_name" content="{{ .Site.Title }}">
+    {{ if .IsHome }}
+    <meta property="og:type" content="website">
+    {{ else }}
+    <meta property="og:type" content="article">
+    {{ end }}
+    <meta property="og:url" content="{{ .Permalink }}">
+    <meta property="og:locale" content="en_US">
+
+    {{ if .Params.thumbnail }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}">
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.thumbnail }}" />
+    {{ else if .Params.image }}
+    <meta property="og:image" content="{{ .Params.image }}">
+    <meta property="twitter:image" content="{{ .Params.image }}" />
+    {{ else }}
+    <meta property="og:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.header_image }}">
+    <meta property="twitter:image" content="{{ .Site.BaseURL }}/{{ .Site.Params.header_image }}" />
+    {{ end }}
+
+    {{ if .Params.title }}
+    <meta name="title" content="{{ .Params.title }}" />
+    <meta property="og:title" content="{{ .Params.title }}" />
+    <meta property="twitter:title" content="{{ .Params.title }}" />
+    {{ else }}
+    <meta name="title" content="{{ .Site.Params.SEOTitle }}" />
+    <meta property="og:title" content="{{ .Site.Params.SEOTitle }}" />
+    <meta property="twitter:title" content="{{ .Site.Params.SEOTitle }}" />
+    {{ end }}
+
+    {{ if .Params.description }}
+    <meta name="description" content="{{ .Params.description }}">
+    <meta property="og:description" content="{{ .Params.description }}" />
+    <meta property="twitter:description" content="{{ .Params.description }}" />
+    {{ else }}
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta property="og:description" content="{{ .Site.Params.description }}" />
+    <meta property="twitter:description" content="{{ .Site.Params.description }}" />
+    {{ end }}
+
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <!-- Article-specific meta -->
+    {{ if and (not .IsHome) .Date }}
+    <meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
+    {{ if .Lastmod }}<meta property="article:modified_time" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" />{{ end }}
+    <meta property="article:author" content="{{ .Site.Title }}" />
+    {{ range .Params.tags }}
+    <meta property="article:tag" content="{{ . }}" />
+    {{ end }}
+    {{ end }}
+
+    <!-- Keywords: per-post tags + site-wide -->
+    {{ if .Params.tags }}
+    <meta name="keywords" content="{{ delimit .Params.tags ", " }}, {{ .Site.Params.keyword }}">
+    {{ else }}
+    <meta name="keywords" content="{{ .Site.Params.keyword }}">
+    {{ end }}
+
+    <meta name="author" content="{{ .Site.Title }}">
+
+    <link rel="icon" href="{{ "img/favicon.ico" | relURL }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ "img/favicon.ico" | relURL }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "/index.xml" | absURL }}" />
+
+    <title>{{ if .Title }}{{ .Title }} | {{ .Site.Params.SEOTitle }}{{ else }}{{ .Site.Params.SEOTitle }}{{ end }}</title>
+
+    <!-- JSON-LD Structured Data -->
+    {{ if .IsHome }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "David Whiteside",
+      "url": "{{ .Site.BaseURL }}",
+      "sameAs": [
+        "https://www.linkedin.com/in/thedavidwhiteside/",
+        "https://github.com/thedavidwhiteside"
+      ],
+      "jobTitle": "Cloud Engineer",
+      "description": "{{ .Site.Params.description }}"
+    }
+    </script>
+    {{ else if .IsPage }}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": {{ .Title | jsonify }},
+      "url": "{{ .Permalink }}",
+      "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+      {{ if .Lastmod }}"dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",{{ end }}
+      "author": {
+        "@type": "Person",
+        "name": "David Whiteside",
+        "url": "{{ .Site.BaseURL }}"
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "David Whiteside",
+        "url": "{{ .Site.BaseURL }}"
+      },
+      "description": {{ with .Params.description }}{{ . | jsonify }}{{ else }}{{ .Site.Params.description | jsonify }}{{ end }}
+    }
+    </script>
+    {{ end }}
+
+    {{ if .Site.Params.disqus_proxy }}
+    <link rel="stylesheet" href="{{ "css/iDisqus.min.css" | relURL }}"/>
+    {{ end }}
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | relURL }}">
+
+    <!-- Clean White theme CSS -->
+    <link rel="stylesheet" href="{{ "css/hugo-theme-cleanwhite.min.css" | relURL }}">
+
+    <!-- zangshang CSS -->
+    <link rel="stylesheet" href="{{ "css/zanshang.css" | relURL }}">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="{{ "css/font-awesome.all.min.css" | relURL }}">
+
+    <!--  Custom CSS  -->
+    {{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+    {{- end }}
+
+    <!-- jQuery -->
+    <script src="{{ "js/jquery.min.js" | relURL }}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{{ "js/bootstrap.min.js" | relURL }}"></script>
+
+    <!-- Hux Theme JavaScript -->
+    <script src="{{ "js/hux-blog.min.js" | relURL }}"></script>
+
+    <!-- lazy load image JavaScript -->
+    <script src="{{ "js/lazysizes.min.js" | relURL }}"></script>
+
+    <!-- Custom JS -->
+    {{ range .Site.Params.custom_js }}
+    <script src="{{ . | absURL }}"></script>
+    {{ end }}
+
+</head>
+
+{{ if .Site.Config.Services.GoogleAnalytics.ID }}
+{{ template "_internal/google_analytics.html" . }}
+{{ end }}
