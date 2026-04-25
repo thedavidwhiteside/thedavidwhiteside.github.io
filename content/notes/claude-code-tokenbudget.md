@@ -2,7 +2,7 @@
 title: "Claude Code Token Budget Plugin"
 date: 2026-04-25T12:00:00Z
 draft: false
-tags: ["Claude", "AI", "Claude Code", "Python", "Tooling"]
+tags: ["AI", "ClaudeCode"]
 ---
 
 [claude-code-tokenbudget](https://github.com/thedavidwhiteside/claude-code-tokenbudget) was just released.  There currently isn't a good mechanism for preventing cost overruns with Claude Code if your using AWS Bedrock for example as a backend.  I ran into a few accidental cost overruns, this plugin will help you prevent accidental cost overages.

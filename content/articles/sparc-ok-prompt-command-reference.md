@@ -2,7 +2,7 @@
 title: "SPARC OK Prompt Command Reference"
 date: 2011-08-07T12:00:00Z
 draft: false
-tags: ["Solaris", "SPARC", "OK Prompt", "Reference"]
+tags: []
 ---
 
 Maybe you don’t care about the forth programming language, but if you work on Sparc systems long enough you are going to have to work from the ok prompt.
