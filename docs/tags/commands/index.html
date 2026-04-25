@@ -114,18 +114,16 @@
             <div class="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="/">All Posts</a>
+                        <a href="/">Home</a>
                     </li>
                     
-                        
-                        <li>
-                            <a href="/categories/tech/">tech</a>
-                        </li>
                         
                     
                     
 		    
-                        <li><a href="/archive//">ARCHIVE</a></li>
+                        <li><a href="/articles//">ARTICLES</a></li>
+                    
+                        <li><a href="/notes//">NOTES</a></li>
                     
                         <li><a href="/about//">ABOUT</a></li>
                     
@@ -205,47 +203,6 @@
         ">
             
 <div data-pagefind-ignore="all">
-
-<div class="post-preview">
-    <a href="https://davidwhiteside.com/post/solaris-shutdown-reboot-init-differences/">
-        <h2 class="post-title">
-            Solaris Shutdown, Reboot, Init, and Halt Command Differences
-        </h2>
-	
-        <div class="post-content-preview">
-	
-            <p>The init and shutdown commands cleanly shutdown the system by running the shutdown rc scripts.</p>
-<p>The advantage of shutdown is that you can set a shutdown delay and warning message.</p>
-<p>halt and reboot are not as clean, no shutdown rc scripts are run so applications will not be brought down clean, I generally do not use these commands unless its a last resort.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ init   <span style="color:#6272a4"># runs the shutdown scripts in /etc/rc*</span>
-</span></span><span style="display:flex;"><span>$ init <span style="color:#bd93f9">0</span> <span style="color:#6272a4"># shutdown (on sparc it takes it to the ok prompt)</span>
-</span></span><span style="display:flex;"><span>$ init s <span style="color:#6272a4"># single user mode</span>
-</span></span><span style="display:flex;"><span>$ init <span style="color:#bd93f9">5</span> <span style="color:#6272a4"># shutdown</span>
-</span></span><span style="display:flex;"><span>$ init <span style="color:#bd93f9">6</span> <span style="color:#6272a4"># reboot</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ shutdown <span style="color:#6272a4"># runs the shutdown scripts in /etc/rc*, prints message warning users</span>
-</span></span><span style="display:flex;"><span>$ shutdown -y -g <span style="color:#bd93f9">0</span>
-</span></span><span style="display:flex;"><span>$ shutdown -y -i <span style="color:#bd93f9">0</span> <span style="color:#6272a4"># shutdown to ok prompt</span>
-</span></span><span style="display:flex;"><span>$ shutdown -y -i S <span style="color:#6272a4"># single user mode</span>
-</span></span><span style="display:flex;"><span>$ shutdown -y -i <span style="color:#bd93f9">5</span> <span style="color:#6272a4"># shutdown</span>
-</span></span><span style="display:flex;"><span>$ shutdown -y -i <span style="color:#bd93f9">6</span> <span style="color:#6272a4"># reboot</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sync; sync; halt <span style="color:#6272a4"># (ungraceful shutdown, use sync;sync;halt)</span>
-</span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sync; sync; reboot <span style="color:#6272a4"># (ungraceful reboot. Always run sync;sync;reboot. The prefered method is using init.)</span>
-</span></span><span style="display:flex;"><span>$ sync; sync; reboot -- -r  <span style="color:#6272a4"># reconfiguration reboot</span>
-</span></span><span style="display:flex;"><span>$ sync; sync; reboot -- -s <span style="color:#6272a4"># reboot into single usermode</span>
-</span></span></code></pre></div>
-       
-        </div>
-    </a>
-    <p class="post-meta">
-    
-        Posted by David Whiteside on Monday, May 7, 2012
-        
-        
-    
-    </p>
-
-</div>
-<hr>
 
 </div>
 
@@ -350,6 +307,12 @@
                
             
                
+            
+               
+            
+               
+            
+               
                     <a href="/tags/linux" title="linux">
                         linux
                     </a>
@@ -364,6 +327,10 @@
                
             
                
+                    <a href="/tags/python" title="python">
+                        python
+                    </a>
+               
             
                
             
@@ -373,6 +340,8 @@
                     <a href="/tags/solaris" title="solaris">
                         solaris
                     </a>
+               
+            
                
             
                

@@ -3,7 +3,6 @@ title: "Simple Tool to Create Throw-Away Python Virtual Environments"
 date: 2024-12-07T12:00:00Z
 draft: false
 tags: ["Python", "Virtual Environments", "Programming", "Linux"]
-categories: ["Tech"]
 ---
 
 Managing Python dependencies in isolated environments is a common practice in software development. But what if you need a quick, temporary virtual environment that you can discard after use? Here’s a simple tool and workflow to create throw-away Python virtual environments.

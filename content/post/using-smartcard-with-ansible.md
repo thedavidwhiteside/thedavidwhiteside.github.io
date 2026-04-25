@@ -3,7 +3,6 @@ title: "Using a Smartcard (PIV or CAC) with Ansible"
 date: 2018-03-07T12:00:00Z
 draft: false
 tags: ["Ansible", "Smartcard", "PIV", "CAC", "Linux"]
-categories: ["Tech"]
 ---
 
 As part of the Ansible 2.12 release, pkcs11/smartcards are now supported by Ansible. Now you can use smartcards and other devices that support pkcs11 (Yubikey) to configure systems with Ansible.
