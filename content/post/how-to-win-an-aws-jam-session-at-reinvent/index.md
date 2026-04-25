@@ -3,7 +3,6 @@ title: "Guide for having fun (and winning) a Jam Session at re:Invent"
 date: 2024-12-12T12:00:00Z
 draft: false
 tags: ["aws", "cloud"]
-categories: ["Tech"]
 ---
 
 AWS Jam Sessions are hands-on, gamified events designed to test your knowledge of AWS services, security, architecture, and operational best practices. Competing in a Jam requires a mix of AWS expertise, problem-solving skills, quick thinking, and teamwork. If you want to maximize your chances of winning, here’s a strategic guide to your next AWS Jam Session.

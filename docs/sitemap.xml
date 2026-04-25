@@ -2,16 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://davidwhiteside.com/tags/ai/</loc>
+    <lastmod>2026-04-25T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidwhiteside.com/tags/claude/</loc>
+    <lastmod>2026-04-25T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidwhiteside.com/tags/claude-code/</loc>
+    <lastmod>2026-04-25T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidwhiteside.com/notes/claude-code-tokenbudget/</loc>
+    <lastmod>2026-04-25T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidwhiteside.com/</loc>
+    <lastmod>2026-04-25T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidwhiteside.com/notes/</loc>
+    <lastmod>2026-04-25T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidwhiteside.com/tags/python/</loc>
+    <lastmod>2026-04-25T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidwhiteside.com/tags/</loc>
+    <lastmod>2026-04-25T12:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://davidwhiteside.com/tags/tooling/</loc>
+    <lastmod>2026-04-25T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://davidwhiteside.com/tags/aws/</loc>
     <lastmod>2024-12-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidwhiteside.com/categories/</loc>
-    <lastmod>2024-12-12T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://davidwhiteside.com/tags/cloud/</loc>
-    <lastmod>2024-12-12T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidwhiteside.com/</loc>
     <lastmod>2024-12-12T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidwhiteside.com/post/how-to-win-an-aws-jam-session-at-reinvent/</loc>
@@ -20,19 +41,10 @@
     <loc>https://davidwhiteside.com/post/</loc>
     <lastmod>2024-12-12T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidwhiteside.com/tags/</loc>
-    <lastmod>2024-12-12T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidwhiteside.com/categories/tech/</loc>
-    <lastmod>2024-12-12T12:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://davidwhiteside.com/tags/linux/</loc>
     <lastmod>2024-12-07T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidwhiteside.com/tags/programming/</loc>
-    <lastmod>2024-12-07T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://davidwhiteside.com/tags/python/</loc>
     <lastmod>2024-12-07T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidwhiteside.com/post/create-throw-away-python-virtual-environments/</loc>
@@ -56,13 +68,16 @@
     <loc>https://davidwhiteside.com/post/using-smartcard-with-ansible/</loc>
     <lastmod>2018-03-07T12:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://davidwhiteside.com/articles/</loc>
+    <lastmod>2012-10-07T12:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://davidwhiteside.com/tags/infiniband/</loc>
     <lastmod>2012-10-07T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidwhiteside.com/tags/networking/</loc>
     <lastmod>2012-10-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidwhiteside.com/post/solaris-setting-ib-node-description/</loc>
+    <loc>https://davidwhiteside.com/articles/solaris-setting-ib-node-description/</loc>
     <lastmod>2012-10-07T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidwhiteside.com/tags/solaris/</loc>
@@ -71,7 +86,7 @@
     <loc>https://davidwhiteside.com/tags/commands/</loc>
     <lastmod>2012-05-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidwhiteside.com/post/solaris-shutdown-reboot-init-differences/</loc>
+    <loc>https://davidwhiteside.com/articles/solaris-shutdown-reboot-init-differences/</loc>
     <lastmod>2012-05-07T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidwhiteside.com/tags/unix/</loc>
@@ -86,13 +101,11 @@
     <loc>https://davidwhiteside.com/tags/sparc/</loc>
     <lastmod>2011-08-07T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://davidwhiteside.com/post/sparc-ok-prompt-command-reference/</loc>
+    <loc>https://davidwhiteside.com/articles/sparc-ok-prompt-command-reference/</loc>
     <lastmod>2011-08-07T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://davidwhiteside.com/about/</loc>
   </url><url>
-    <loc>https://davidwhiteside.com/notes/</loc>
-  </url><url>
-    <loc>https://davidwhiteside.com/archive/</loc>
+    <loc>https://davidwhiteside.com/categories/</loc>
   </url>
 </urlset>
