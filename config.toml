@@ -3,7 +3,7 @@ title = "David Whiteside"
 theme = "hugo-theme-cleanwhite"
 languageCode = "en-us"
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "davidwhiteside"
 googleAnalytics = "G-3DN3WMF161"
 preserveTaxonomyNames = true
 hasCJKLanguage = true
