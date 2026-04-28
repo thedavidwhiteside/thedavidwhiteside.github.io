@@ -1,7 +1,6 @@
 ---
 layout: page
 multilingual: false
-comments: false
 ---
 
 ## About Me
