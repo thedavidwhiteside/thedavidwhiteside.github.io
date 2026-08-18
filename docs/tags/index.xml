@@ -1,110 +1,115 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on David Whiteside</title>
-    <link>https://davidwhiteside.com/tags/</link>
-    <description>Recent content in Tags on David Whiteside</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 25 Apr 2026 12:00:00 +0000</lastBuildDate>
-    <atom:link href="https://davidwhiteside.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AI</title>
-      <link>https://davidwhiteside.com/tags/ai/</link>
-      <pubDate>Sat, 25 Apr 2026 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ClaudeCode</title>
-      <link>https://davidwhiteside.com/tags/claudecode/</link>
-      <pubDate>Sat, 25 Apr 2026 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/claudecode/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Aws</title>
-      <link>https://davidwhiteside.com/tags/aws/</link>
-      <pubDate>Thu, 12 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/aws/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cloud</title>
-      <link>https://davidwhiteside.com/tags/cloud/</link>
-      <pubDate>Thu, 12 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/cloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://davidwhiteside.com/tags/linux/</link>
-      <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Programming</title>
-      <link>https://davidwhiteside.com/tags/programming/</link>
-      <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/programming/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Python</title>
-      <link>https://davidwhiteside.com/tags/python/</link>
-      <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/python/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Virtual Environments</title>
-      <link>https://davidwhiteside.com/tags/virtual-environments/</link>
-      <pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/virtual-environments/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ansible</title>
-      <link>https://davidwhiteside.com/tags/ansible/</link>
-      <pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/ansible/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CAC</title>
-      <link>https://davidwhiteside.com/tags/cac/</link>
-      <pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/cac/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>PIV</title>
-      <link>https://davidwhiteside.com/tags/piv/</link>
-      <pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/piv/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Smartcard</title>
-      <link>https://davidwhiteside.com/tags/smartcard/</link>
-      <pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/smartcard/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>IB</title>
-      <link>https://davidwhiteside.com/tags/ib/</link>
-      <pubDate>Sun, 07 Oct 2012 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/ib/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>InfiniBand</title>
-      <link>https://davidwhiteside.com/tags/infiniband/</link>
-      <pubDate>Sun, 07 Oct 2012 12:00:00 +0000</pubDate>
-      <guid>https://davidwhiteside.com/tags/infiniband/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tags on David Whiteside</title>
+		<link>https://davidwhiteside.com/tags/</link>
+		<description>Recent content in Tags on David Whiteside</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 25 Apr 2026 12:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://davidwhiteside.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>AI</title>
+				<link>https://davidwhiteside.com/tags/ai/</link>
+				<pubDate>Sat, 25 Apr 2026 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/ai/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>ClaudeCode</title>
+				<link>https://davidwhiteside.com/tags/claudecode/</link>
+				<pubDate>Sat, 25 Apr 2026 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/claudecode/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Aws</title>
+				<link>https://davidwhiteside.com/tags/aws/</link>
+				<pubDate>Thu, 12 Dec 2024 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/aws/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cloud</title>
+				<link>https://davidwhiteside.com/tags/cloud/</link>
+				<pubDate>Thu, 12 Dec 2024 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/cloud/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Linux</title>
+				<link>https://davidwhiteside.com/tags/linux/</link>
+				<pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/linux/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Programming</title>
+				<link>https://davidwhiteside.com/tags/programming/</link>
+				<pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/programming/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Python</title>
+				<link>https://davidwhiteside.com/tags/python/</link>
+				<pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/python/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Virtual Environments</title>
+				<link>https://davidwhiteside.com/tags/virtual-environments/</link>
+				<pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/virtual-environments/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Ansible</title>
+				<link>https://davidwhiteside.com/tags/ansible/</link>
+				<pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/ansible/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>CAC</title>
+				<link>https://davidwhiteside.com/tags/cac/</link>
+				<pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/cac/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>PIV</title>
+				<link>https://davidwhiteside.com/tags/piv/</link>
+				<pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/piv/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Smartcard</title>
+				<link>https://davidwhiteside.com/tags/smartcard/</link>
+				<pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/smartcard/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>IB</title>
+				<link>https://davidwhiteside.com/tags/ib/</link>
+				<pubDate>Sun, 07 Oct 2012 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/ib/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>InfiniBand</title>
+				<link>https://davidwhiteside.com/tags/infiniband/</link>
+				<pubDate>Sun, 07 Oct 2012 12:00:00 +0000</pubDate>
+				<guid>https://davidwhiteside.com/tags/infiniband/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>
