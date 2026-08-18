@@ -3,14 +3,27 @@
 <head>
   <meta charset="utf-8" />
   <title>David Whiteside — Resume</title>
-  <link rel="canonical" href="https://davidwhiteside.com/David_Whiteside_Resume_Public.docx" />
+  <link rel="canonical" href="/David_Whiteside_Resume_Public.docx" />
   <meta name="robots" content="noindex" />
-  <meta http-equiv="refresh" content="0; url=https://davidwhiteside.com/David_Whiteside_Resume_Public.docx" />
-  <script>
-    window.location.replace("https://davidwhiteside.com/David_Whiteside_Resume_Public.docx");
-  </script>
 </head>
 <body>
-  <p>Redirecting to <a href="https://davidwhiteside.com/David_Whiteside_Resume_Public.docx">David Whiteside's resume</a>&hellip;</p>
+  <p>
+    Downloading <a href="/David_Whiteside_Resume_Public.docx">David Whiteside's resume</a>&hellip;
+    You'll be redirected to the <a href="/about/">About page</a> shortly.
+  </p>
+  <script>
+    var docUrl = "/David_Whiteside_Resume_Public.docx";
+    var aboutUrl = "/about/";
+
+    var a = document.createElement("a");
+    a.href = docUrl;
+    a.download = "David_Whiteside_Resume_Public.docx";
+    document.body.appendChild(a);
+    a.click();
+
+    setTimeout(function () {
+      window.location.replace(aboutUrl);
+    }, 1500);
+  </script>
 </body>
 </html>
