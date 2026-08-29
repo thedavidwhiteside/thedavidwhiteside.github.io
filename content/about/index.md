@@ -4,9 +4,10 @@ multilingual: false
 ---
 
 ## About Me
-**_David Whiteside_** is a skilled cloud architect and software developer with expertise in Cloud Computing, High-Performance Computing (HPC), Linux, DevOps, and Programming, with a passion for exploring technology. His interests span the entire spectrum of software development, from crafting web applications and mobile apps to delving into embedded systems at the firmware level.
 
-Beyond cloud computing and software development, David has a keen interest in Artificial Intelligence, Machine Learning, and the intersection of technology with real-world problem-solving. He enjoys hands-on projects like 3D printing and exploring advancements in renewable energy, electric vehicles, and solar power. When he's not in front of a screen, you'll likely find him snowboarding, mountain biking, or rock climbing in the mountains, embracing the same sense of problem-solving and adaptability that he brings to his engineering work.
+**_David Whiteside_** works in Cloud Computing (mostly AWS). His experience spans software development and operations, from large scale HPC and web applications to early iPhone apps and embedded firmware for paintball markers.
+
+Beyond cloud computing and software development, you'll likely find him hiking, snowboarding, mountain biking, or rock climbing in the Colorado mountains.
 
 [Download my resume](/David_Whiteside_Resume_Public.docx)
 
