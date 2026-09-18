@@ -17,7 +17,7 @@ pagerSize = 10
 home = ["HTML", "RSS"]
 
 [params]
-  header_image = "img/home-bg-ski1.jpg"
+  header_image = "img/home-bg-gradient.jpg"
   SEOTitle = "David Whiteside - Cloud engineer, sharing insights on AWS, DevOps, and HPC"
   description = "Cloud engineer, sharing insights on AWS, DevOps, and HPC"
   keyword = "David Whiteside, David, Whiteside, Tech, Cloud, HPC"

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on David Whiteside</title>
-		<link>https://davidwhiteside.com/tags/</link>
+		<link>http://localhost:1313/tags/</link>
 		<description>Recent content in Tags on David Whiteside</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
@@ -12,103 +12,103 @@
 		
 			<lastBuildDate>Sat, 25 Apr 2026 12:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://davidwhiteside.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>AI</title>
-				<link>https://davidwhiteside.com/tags/ai/</link>
+				<link>http://localhost:1313/tags/ai/</link>
 				<pubDate>Sat, 25 Apr 2026 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/ai/</guid>
+				<guid>http://localhost:1313/tags/ai/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>ClaudeCode</title>
-				<link>https://davidwhiteside.com/tags/claudecode/</link>
+				<link>http://localhost:1313/tags/claudecode/</link>
 				<pubDate>Sat, 25 Apr 2026 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/claudecode/</guid>
+				<guid>http://localhost:1313/tags/claudecode/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Aws</title>
-				<link>https://davidwhiteside.com/tags/aws/</link>
+				<link>http://localhost:1313/tags/aws/</link>
 				<pubDate>Thu, 12 Dec 2024 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/aws/</guid>
+				<guid>http://localhost:1313/tags/aws/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Cloud</title>
-				<link>https://davidwhiteside.com/tags/cloud/</link>
+				<link>http://localhost:1313/tags/cloud/</link>
 				<pubDate>Thu, 12 Dec 2024 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/cloud/</guid>
+				<guid>http://localhost:1313/tags/cloud/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Linux</title>
-				<link>https://davidwhiteside.com/tags/linux/</link>
+				<link>http://localhost:1313/tags/linux/</link>
 				<pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/linux/</guid>
+				<guid>http://localhost:1313/tags/linux/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Programming</title>
-				<link>https://davidwhiteside.com/tags/programming/</link>
+				<link>http://localhost:1313/tags/programming/</link>
 				<pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/programming/</guid>
+				<guid>http://localhost:1313/tags/programming/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Python</title>
-				<link>https://davidwhiteside.com/tags/python/</link>
+				<link>http://localhost:1313/tags/python/</link>
 				<pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/python/</guid>
+				<guid>http://localhost:1313/tags/python/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Virtual Environments</title>
-				<link>https://davidwhiteside.com/tags/virtual-environments/</link>
+				<link>http://localhost:1313/tags/virtual-environments/</link>
 				<pubDate>Sat, 07 Dec 2024 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/virtual-environments/</guid>
+				<guid>http://localhost:1313/tags/virtual-environments/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Ansible</title>
-				<link>https://davidwhiteside.com/tags/ansible/</link>
+				<link>http://localhost:1313/tags/ansible/</link>
 				<pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/ansible/</guid>
+				<guid>http://localhost:1313/tags/ansible/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>CAC</title>
-				<link>https://davidwhiteside.com/tags/cac/</link>
+				<link>http://localhost:1313/tags/cac/</link>
 				<pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/cac/</guid>
+				<guid>http://localhost:1313/tags/cac/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>PIV</title>
-				<link>https://davidwhiteside.com/tags/piv/</link>
+				<link>http://localhost:1313/tags/piv/</link>
 				<pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/piv/</guid>
+				<guid>http://localhost:1313/tags/piv/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Smartcard</title>
-				<link>https://davidwhiteside.com/tags/smartcard/</link>
+				<link>http://localhost:1313/tags/smartcard/</link>
 				<pubDate>Wed, 07 Mar 2018 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/smartcard/</guid>
+				<guid>http://localhost:1313/tags/smartcard/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>IB</title>
-				<link>https://davidwhiteside.com/tags/ib/</link>
+				<link>http://localhost:1313/tags/ib/</link>
 				<pubDate>Sun, 07 Oct 2012 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/ib/</guid>
+				<guid>http://localhost:1313/tags/ib/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>InfiniBand</title>
-				<link>https://davidwhiteside.com/tags/infiniband/</link>
+				<link>http://localhost:1313/tags/infiniband/</link>
 				<pubDate>Sun, 07 Oct 2012 12:00:00 +0000</pubDate>
-				<guid>https://davidwhiteside.com/tags/infiniband/</guid>
+				<guid>http://localhost:1313/tags/infiniband/</guid>
 				<description></description>
 			</item>
 	</channel>
