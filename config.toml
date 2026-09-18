@@ -7,7 +7,6 @@ disqusShortname = "davidwhiteside"
 googleAnalytics = "G-3DN3WMF161"
 preserveTaxonomyNames = true
 hasCJKLanguage = true
-publishDir = "docs"
 relURL = "img/favicon.ico"
 
 [pagination]
