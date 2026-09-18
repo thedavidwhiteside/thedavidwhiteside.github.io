@@ -5,7 +5,7 @@ multilingual: false
 
 ## About Me
 
-**_David Whiteside_** works in Cloud Computing (mostly AWS). His experience spans software development and operations, from large scale HPC and web applications to early iPhone apps and embedded firmware for paintball markers.
+**_David Whiteside_** works in Cloud Computing (mostly AWS). His experience spans software development and operations, from large scale HPC and web applications to early iPhone apps and embedded firmware for paintball markers.  I started programming at age 12 because of an interest in game development and never lost my passion for writing software.
 
 Beyond cloud computing and software development, you'll likely find him hiking, snowboarding, mountain biking, or rock climbing in the Colorado mountains.
 
