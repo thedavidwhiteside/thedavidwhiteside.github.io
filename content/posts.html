@@ -1,0 +1,23 @@
+---
+layout: page
+title: "Posts"
+subtitle: "All posts."
+permalink: /post/
+---
+
+{% assign items = site.posts | sort: "date" | reverse %}
+{% assign years = items | group_by_exp: "item", "item.date | date: '%Y'" %}
+
+{% for year in years %}
+<h2 class="linked-section">{{ year.name }}</h2>
+<ul class="posts-list list-unstyled" role="list">
+  {% for item in year.items %}
+  <li class="post-preview">
+    <a href="{{ item.url | relative_url }}">
+      <h3 class="post-title">{{ item.title }}</h3>
+    </a>
+    <p class="post-meta">{{ item.date | date: site.date_format }}</p>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}

@@ -1,0 +1,53 @@
+title: "David Whiteside"
+author: "David Whiteside"
+url: "https://davidwhiteside.com"
+baseurl: ""
+timezone: "America/Denver"
+
+navbar-links:
+  Posts: "/post/"
+  About: "/about/"
+
+avatar: "https://s.gravatar.com/avatar/53dcc370b5af132823e8e8128a341867?s=256"
+
+social-network-links:
+  email: "contact@davidwhiteside.com"
+  rss: true
+  github: "thedavidwhiteside"
+  linkedin: "thedavidwhiteside"
+
+rss-description: "Cloud engineer, sharing insights on AWS, DevOps, and HPC"
+keywords: "David Whiteside, David, Whiteside, Tech, Cloud, HPC"
+
+gtag: "G-3DN3WMF161"
+disqus: "davidwhiteside"
+
+date_format: "%B %-d, %Y"
+permalink: /post/:title/
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+
+remote_theme: daattali/beautiful-jekyll@6.0.1
+
+exclude:
+  - README.md
+  - LICENSE

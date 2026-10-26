@@ -1,0 +1,26 @@
+---
+layout: null
+permalink: /cv/
+sitemap: false
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Downloading resume - David Whiteside</title>
+  <meta name="robots" content="noindex">
+  <script>
+    window.addEventListener("load", function () {
+      document.getElementById("resume-download").click();
+      window.setTimeout(function () {
+        window.location.replace("{{ '/about/' | relative_url }}");
+      }, 2000);
+    });
+  </script>
+  <noscript><meta http-equiv="refresh" content="5; url={{ '/about/' | relative_url }}"></noscript>
+</head>
+<body>
+  <p>Your resume download should begin automatically. If it does not, <a id="resume-download" href="{{ '/assets/files/David_Whiteside_Resume_Public.docx' | relative_url }}" download="David_Whiteside_Resume_Public.docx">download the resume</a>.</p>
+  <p>Returning to <a href="{{ '/about/' | relative_url }}">About</a>.</p>
+</body>
+</html>

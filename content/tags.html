@@ -1,0 +1,34 @@
+---
+layout: page
+title: "Tag Index"
+subtitle: "Browse content by tag."
+permalink: /tags/
+---
+
+{% assign all = site.posts %}
+{% assign tagged_items = all | where_exp: "item", "item.tags.size > 0" %}
+{% assign tag_names = tagged_items | map: "tags" | join: "," | split: "," | uniq | sort %}
+
+{% for tag in tag_names %}
+<a href="#{{ tag }}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{ tag }}&nbsp;({{ tagged_items | where_exp: "item", "item.tags contains tag" | size }})</a>
+{% endfor %}
+
+<div id="full-tags-list">
+{% for tag in tag_names %}
+    {% assign tagged = tagged_items | where_exp: "item", "item.tags contains tag" | sort: "date" | reverse %}
+  <h2 id="{{ tag }}" class="linked-section">
+    <i class="fas fa-tag" aria-hidden="true"></i>
+    &nbsp;{{ tag }}&nbsp;({{ tagged | size }})
+  </h2>
+  <div class="post-list">
+    {% for item in tagged %}
+    <div class="tag-entry">
+      <a href="{{ item.url | relative_url }}">{{ item.title | strip_html }}</a>
+      <div class="entry-date">
+        <time datetime="{{ item.date | date_to_xmlschema }}">{{ item.date | date: site.date_format }}</time>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+{% endfor %}
+</div>
