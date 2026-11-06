@@ -6,15 +6,17 @@ timezone: "America/Denver"
 
 navbar-links:
   Posts: "/post/"
+  Tags: "/tags/"
   About: "/about/"
 
 avatar: "https://s.gravatar.com/avatar/53dcc370b5af132823e8e8128a341867?s=256"
 
 social-network-links:
-  email: "contact@davidwhiteside.com"
   rss: true
+  email: "contact@davidwhiteside.com"
   github: "thedavidwhiteside"
   linkedin: "thedavidwhiteside"
+  hackerrank: "davidwhiteside"
 
 rss-description: "Cloud engineer, sharing insights on AWS, DevOps, and HPC"
 keywords: "David Whiteside, David, Whiteside, Tech, Cloud, HPC"
@@ -24,6 +26,8 @@ disqus: "davidwhiteside"
 
 date_format: "%B %-d, %Y"
 permalink: /post/:title/
+paginate: 10
+paginate_path: "/page/:num/"
 
 kramdown:
   input: GFM
@@ -45,6 +49,7 @@ defaults:
 plugins:
   - jekyll-remote-theme
   - jekyll-sitemap
+  - jekyll-paginate
 
 remote_theme: daattali/beautiful-jekyll@6.0.1
 
