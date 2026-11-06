@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "About Me"
+share-description: "David Whiteside is a cloud engineer working mostly with AWS, with experience spanning HPC, web applications, iPhone apps, and embedded firmware."
 permalink: /about/
 ---
 
